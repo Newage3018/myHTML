@@ -13,6 +13,13 @@
             li::before{
                 content:"-- ";
             }
+            table{
+                border: 3px solid black;margin-left: 1%;
+                border-collapse: collapse;
+            }
+            td,th{
+                border: 3px solid black;
+            }
         </style>
     </head>
     <body>
@@ -20,15 +27,13 @@
        <div id="mydata" style="margin-left: 1%">
             <div style="display: inline-block">
                 <h3>Графическая идентификация</h3>
-                <img src="../img/Igor3.jpg" alt="foto" style="margin: 0% 10%"> 
+                <img src="../img/Igor4.jpg" alt="foto" style="margin: 0% 0%"> 
             </div>
             <div style="display: inline-block; vertical-align: top; margin-left: 2%">
                 <h3> Текстовая идентификация</h3>
-                <div style="margin: 5%">
+                <div style="margin: 7%">
                     <p>ФИО....Артюшин И.О.</p>
-                    <a href="https://github.com/Newage3018/myHTML.git">
-                    Вот ссылка на репозиторий!
-                    </a>
+                    <a href="https://github.com/Newage3018/myHTML.git">Вот ссылка на репозиторий!</a>
                     <p>Опыта работы нет</p>
                 </div>
             </div>
@@ -38,6 +43,7 @@
             <form>
             <h3 style="display:inline-block; margin-left: 1%; margin-right: 1%">Дата собеседования</h3>
                 <input type="date">
+                <i class="fa fa-calendar fa-2x" aria-hidden="true" ></i>
                 <div id="langcheck" style="margin-left: 1%">
                     <h3>Уровень английского</h3>
                     <input type="radio" name="lang" value="bad" ><label style="margin-right: 1%">Плохо   </label>
@@ -81,14 +87,42 @@
                     <input type="checkbox" name="okman" value=ok>
                     <label style="margin-right: 1%" >Сразу видно, свой человек</label>
             </form>
-
-
-
-
-
-
-
-
+        </div>
+        <div id="table1" style="margin-top: 2%; margin-left: 1%">
+            <h3 style="margin-left: 1%; margin-right: 1%">Образование, курсы, и т.п.</h3>
+            <table cellpadding="7">
+                <caption style="text-align: left">Полученные знания</caption>
+                <tr>
+                    <th>#</th>
+                    <th>Сроки обучения</th>
+                    <th>Название учебного заведения</th>
+                    <th>Название курсов</th>
+                </t>
+                <tr>
+                    <td style="border: 3px solid black">1</td>
+                    <td>01.01.2018 - 03.01.2018</td>
+                    <td>Новогоднее застолье</td>
+                    <td>Зимой и летом, одним цветом!</td>
+                </tr>
+                <tr>
+                    <td style="border: 3px solid black">2</td>
+                    <td>01.01.2019 - 03.01.2019</td>
+                    <td>Новогоднее застолье</td>
+                    <td>Опять она и цвет тот же!</td>
+                </tr>
+                <!--<tr>
+                    <td style="border: 3px solid black">3</td>
+                    <td>01.01.2019 - 03.01.2019</td>
+                    <td>Новогоднее застолье</td>
+                    <td>Зимой и летом, одним цветом!</td>
+                </tr>
+                <tr>
+                    <td style="border: 3px solid black">4</td>
+                    <td>01.01.2019 - 03.01.2019</td>
+                    <td>Новогоднее застолье</td>
+                    <td>Зимой и летом, одним цветом!</td>
+                </tr>-->
+            </table>
         </div>
     </body>
 </html>
