@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>HR: Junior Front-End</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous">
+        <style>li{
+            list-style-type: none;
+            }
+            li::before{
+                content:"-- ";
+            }
+            table{
+                border: 3px solid black;margin-left: 1%;
+                border-collapse: collapse;
+            }
+            td,th{
+                border: 3px solid black;
+            }
+        </style>
+    </head>
+    <body>
+       <h1>Вакансия: Junior Frontend Developer</h1>
+       <div id="mydata" style="margin-left: 1%">
+            <div style="display: inline-block">
+                <h3>Графическая идентификация</h3>
+                <img src="../img/Igor4.jpg" alt="foto" style="margin: 0% 10%">
+            </div>
+            <div style="display: inline-block; vertical-align: top; margin-left: 2%">
+                <h3> Текстовая идентификация</h3>
+                <div style="margin: 7%">
+                    <p>ФИО....Артюшин И.О.</p>
+                    <a href="https://github.com/Newage3018/myHTML.git">Вот ссылка на репозиторий!</a>
+                    <p>Опыта работы нет</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="main-block" style="margin-top: 2%; margin-left: 1%">
+            <form>
+            <h3 style="display:inline-block; margin-left: 1%; margin-right: 1%">Дата собеседования</h3>
+                <input type="date">
+                <i class="fa fa-calendar fa-2x" aria-hidden="true" ></i>
+                <div id="langcheck" style="margin-left: 1%">
+                    <h3>Уровень английского</h3>
+                    <input type="radio" name="lang" value="bad" ><label style="margin-right: 1%">Плохо   </label>
+                    <input type="radio" name="lang" value="middle"><label style="margin-right: 1%">Средне</label>
+                    <input type="radio" name="lang" value="good"><label style="margin-right: 1%">Хорошо</label>
+                    <input type="radio" name="lang" value="super"><label style="margin-right: 1%">Превосходно</label>
+                </div>
+            </form>
+            <form>
+                <h3 style="display:inline-block; margin-left:1%; margin-top:3%;margin-bottom: 0%;">Ключевые навыки</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS/LESS</li>
+                    <li>JavaScript</li>
+                    <li>and ALL OTHER</li>
+                </ul>
+                <input type="text" name="skills" value="" style="margin-left:2%;"
+                placeholder="Введите навык......" >
+                <input type="button" name="butskills" value="Добавить в список" style="margin-left:1%;">
+            </form>
+        </div>
+        <div id="second-block" style="margin-top: 2%; margin-left: 1%">
+            <form>
+                <h3 style="display:inline-block; margin-left: 1%; margin-right: 1%">Коммуникабельность:</h3>
+                    <select>
+                        <option>Плохо</option>
+                        <option>Средне</option>
+                        <option>Хорошо</option>
+                        <option>Превосходно</option>
+                    </select>
+                <div></div>
+                <h3 style="display:inline-block; margin-left: 1%; margin-right: 1%">Желаемая зарплата:</h3>
+                    <input  style="display:inline-block; margin-left:2%;" type="text" name="pay" value="" placeholder="Не стесняйся ...." >
+                <h3 style="margin-left: 1%; margin-right: 1%">Подходит по критериям:</h3>
+                    <input type="checkbox" name="oklang" value="ok" style="margin-left: 1%">
+                    <label style="margin-right: 1%" >Знание английского</label>
+                    <input type="checkbox" name="okpay" value=ok>
+                    <label style="margin-right: 1%" >Оклад</label>
+                    <input type="checkbox" name="okskill" value="ok">
+                    <label style="margin-right: 1%" >Навыки</label>
+                    <input type="checkbox" name="okman" value=ok>
+                    <label style="margin-right: 1%" >Сразу видно, свой человек</label>
+            </form>
+        </div>
+        <div id="table1" style="margin-top: 2%; margin-left: 1%">
+            <h3 style="margin-left: 1%; margin-right: 1%">Образование, курсы, и т.п.</h3>
+            <table cellpadding="7">
+                <caption style="text-align: left">Полученные знания</caption>
+                <tr>
+                    <th>#</th>
+                    <th>Сроки обучения</th>
+                    <th>Название учебного заведения</th>
+                    <th>Название курсов</th>
+                </t>
+                <tr>
+                    <td>1</td>
+                    <td>01.01.2018 - 03.01.2018</td>
+                    <td>Новогоднее застолье</td>
+                    <td>Зимой и летом, одним цветом!</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>01.01.2019 - 03.01.2019</td>
+                    <td>Новогоднее застолье</td>
+                    <td>Опять она и цвет тот же!</td>
+                </tr>
+                <tr>
+                    <td style="border: 3px solid black">3</td>
+                    <td>01.01.2019 - 03.01.2019</td>
+                    <td>Новогоднее застолье</td>
+                    <td>Зимой и летом, одним цветом!</td>
+                </tr>
+                <tr>
+                    <td style="border: 3px solid black">4</td>
+                    <td>01.01.2019 - 03.01.2019</td>
+                    <td>Новогоднее застолье</td>
+                    <td>Зимой и летом, одним цветом!</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
