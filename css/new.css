@@ -1,0 +1,18 @@
+nav {
+    background-color: hotpink;
+    height: 40px;
+    line-height:40px;
+    border: 1px solid black;
+
+}
+.nav-link{
+    text-decoration:unset;
+    color:green;
+    font-size:20px;
+    margin-right:10px;
+
+
+}
+.nav-link: last-child{
+    margin-right:0;
+}
