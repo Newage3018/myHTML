@@ -7,46 +7,26 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
         crossorigin="anonymous">
-        <style>li{
-            list-style-type: none;
-            }
-            li::before{
-                content:"-- ";
-            }
-            table{
-                border: 3px solid black;margin-left: 1%;
-                border-collapse: collapse;
-            }
-            td,th{
-                border: 3px solid black;
-            }
-        </style>
     </head>
     <body>
-        <form style="margin-left:33%">
-        <h1 style="marginleft: 1%">Вакансия: Junior Frontend Developer</h1>
-        <div id="mydata" style="margin-left: 1%">
-            <div style="display: inline-block">
+        <form>
+        <h1>Вакансия: Junior Frontend Developer</h1>
+        <div id="mydata">
+            <div class="graf-id">
                 <h3>Графическая идентификация</h3>
-                <img src="/img/Igor4.jpg" alt="foto" style="margin: 0% 10%">
+                <img src="/img/Igor4.jpg" alt="foto">
             </div>
-            <div style="display: inline-block; vertical-align: top; margin-left: 2%">
+            <div class="text-id">
                 <h3> Текстовая идентификация</h3>
                 <div style="margin: 7%">
                     <p><span>ФИО....Артюшин И.О.</span></p>
                     <p><a href="https://github.com/Newage3018/myHTML.git" target="_blank">Вот ссылка на репозиторий!</a></p>
                     <p><span>Опыта работы нет</span></p>
-                    <!-- <p><span>ФИО....Артюшин И.О.<br>
-                    <a href="https://github.com/Newage3018/myHTML.git">Вот ссылка на репозиторий!</a><br>
-                    Опыта работы нет</span></p> -->
-
-
-                </div>
+                    </div>
             </div>
         </div>
-
+<!--Основной блок формыЫ-->
         <div id="main-block" style="margin-top: 2%; margin-left: 1%">
-
             <h3 style="display:inline-block; margin-left: 1%; margin-right: 1%">Дата собеседования</h3>
                 <input type="date">
                 <i class="fa fa-calendar fa-2x" aria-hidden="true" ></i>
@@ -57,7 +37,6 @@
                     <input type="radio" name="lang" value="good"><label style="margin-right: 1%">Хорошо</label>
                     <input type="radio" name="lang" value="super"><label style="margin-right: 1%">Превосходно</label>
                 </div>
-
                 <h3 style="display:inline-block; margin-left:1%; margin-top:3%;margin-bottom: 0%;">Ключевые навыки</h3>
                 <ul>
                     <li>HTML</li>
@@ -83,31 +62,15 @@
                 <h3 style="display:inline-block; margin-left: 1%; margin-right: 1%">Желаемая зарплата:</h3>
                     <input  style="display:inline-block; margin-left:2%;" type="number" name="pay" value="" placeholder="Не стесняйся ...." >
                 <h3 style="margin-left: 1%; margin-right: 1%">Подходит по критериям:</h3>
-                    <!-- <input type="checkbox" name="oklang" value="ok" style="margin-left: 1%">
-                    <label style="margin-right: 1%" >Знание английского</label>
-                    <input type="checkbox" name="okpay" value=ok>
-                    <label style="margin-right: 1%" >Оклад</label>
-                    <input type="checkbox" name="okskill" value="ok">
-                    <label style="margin-right: 1%" >Навыки</label>
-                    <input type="checkbox" name="okman" value=ok>
-                    <label style="margin-right: 1%" >Сразу видно, свой человек</label> -->
                     <input type="checkbox" name="oklang" value="ok" style="margin-left: 1%"><label style="margin-right: 1%" >Знание английского</label>
                     <input type="checkbox" name="okpay" value=ok><label style="margin-right: 1%" >Оклад</label>
                     <input type="checkbox" name="okskill" value="ok"><label style="margin-right: 1%" >Навыки</label>
                     <input type="checkbox" name="okman" value=ok><label style="margin-right: 1%" >Сразу видно, свой человек</label>
-                    
-
-        </div>
+       </div>
         <div id="table1" style="margin-top: 2%; margin-left: 1%">
             <h3 style="margin-left: 1%; margin-right: 1%">Образование, курсы, и т.п.</h3>
             <table cellpadding="7">
                 <caption style="text-align: left">Полученные знания</caption>
-                <!-- <tr>
-                    <th>#</th>
-                    <th>Сроки обучения</th>
-                    <th>Название учебного заведения</th>
-                    <th>Название курсов</th>
-                </tr> -->
                 <thead>
                     <tr>
                         <td>#</td>

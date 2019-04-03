@@ -1,5 +1,70 @@
+li{
+    list-style-type: none;
+    }
+    li::before{
+        content:"-- ";
+    }
+    table{
+        border: 3px solid black;margin-left: 1%;
+        border-collapse: collapse;
+    }
+    td,th{
+        border: 3px solid black;
+    }
+    tr:nth-child(odd){
+        background-color: aqua;
+    }
+    tr:nth-child(even){
+        background-color:red;
+    }
+    thead tr td{
+        background-color:rgb(213, 216, 51);
+    }
+form{
+    width: 500px; 
+}    
 h1{
-    font-size:25;
-    color:black;
+    font-size:23px;
+    font-family: Verdana, Geneva, Tahoma, sans-seri;
+    color:red;
+    border: 3px dotted blue;
+    margin: 3%;
+    margin-left:0;
+    box-sizing: border-box; 
+    width: 500px; 
 }
-<div class="some-class-name">
+h3{
+    font-size:18px;
+    color:blue;
+}
+span{
+    font-size:18px;
+    color:rgb(0, 255, 34);
+}
+a{
+    font-size:14px;
+    color:rgb(255, 0, 179);
+}
+
+form{
+    margin-left:33%;
+}
+#mydata{
+    width: 500px;
+}
+
+img{
+    margin: 0% 10%;
+}
+
+.graf-id {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2%;
+
+}
+.text-id{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2%;  
+}
