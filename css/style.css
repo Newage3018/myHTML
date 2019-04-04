@@ -106,11 +106,17 @@ img{
     margin-left:2%;  
 }
 
-.main-block input:nth-child(8){
+.main-block input:nth-child(6){
     margin-left:5%;  
 }
 
 #second-block{
     margin-top: 2%;
     margin-left: 1%;
+}
+
+.second-block h3{
+    display:inline-block;
+    margin-left: 1%; 
+    margin-right: 1%"
 }
