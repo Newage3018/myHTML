@@ -11,7 +11,9 @@
     <body>
         <form>
         <h1>Вакансия: Junior Frontend Developer</h1>
-        <div id="mydata">
+        <div class="in-form">
+
+        <div class="mydata">
             <div class="graf-id">
                 <h3>Графическая идентификация</h3>
                 <img src="/img/Igor4.jpg" alt="foto">
@@ -26,18 +28,15 @@
             </div>
         </div>
 <!--Основной блок формыЫ-->
-        <div id="main-block" class="main-block">
-            <h3 class="all-h3">Дата собеседования</h3>
-                <input type="date">
-                <i class="fa fa-calendar fa-2x" aria-hidden="true" ></i>
-                <div id="langcheck">
+        <div class="main-block">
+            <h3 class="all-h3">Дата собеседования</h3><input type="date"><i class="fa fa-calendar fa-2x" aria-hidden="true" ></i>                <div id="langcheck">
                     <h3>Уровень английского</h3>
                     <input type="radio" name="lang" value="bad" ><label class="lang-label">Плохо</label>
                     <input type="radio" name="lang" value="middle"><label class="lang-label">Средне</label>
                     <input type="radio" name="lang" value="good"><label class="lang-label">Хорошо</label>
                     <input type="radio" name="lang" value="super"><label class="lang-label">Превосходно</label>
-                </div>
-                <h3 class="all-h3">Ключевые навыки</h3>
+        </div>
+            <h3 class="all-h3">Ключевые навыки</h3>
                 <ul class="skills-list">
                     <li>HTML</li>
                     <li>CSS/LESS</li>
@@ -61,7 +60,7 @@
                 <h3 class="all-h3">Желаемая зарплата:</h3>
 
                 <input  class="input-pay" type="number" name="pay" value="" placeholder="Не стесняйся ...." >
-                <h3 class="all-h3">Подходит по критериям:</h3>
+                <h3 class="h3">Подходит по критериям:</h3>
                     <input type="checkbox" name="oklang" value="ok" style="margin-left: 1%"><label style="margin-right: 1%" >Знание английского</label>
                     <input type="checkbox" name="okpay" value=ok><label style="margin-right: 1%" >Оклад</label>
                     <input type="checkbox" name="okskill" value="ok"><label style="margin-right: 1%" >Навыки</label>
@@ -105,6 +104,7 @@
                 </tr>
             </table>
         </div>
+    </div>
     </form>
     </body>
 </html>
