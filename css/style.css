@@ -5,11 +5,18 @@ li{
         content:"-- ";
     }
     table{
-        border: 3px solid black;margin-left: 1%;
-        border-collapse: collapse;
+        border: 3px solid black;
+        margin-left: 1%;
+        /* border-collapse: collapse;
+         */
+         border-radius: 10px; 
     }
     td,th{
         border: 3px solid black;
+        
+    }
+    table td{
+        border-spacing: 0;
     }
     tr:nth-child(odd){
         background-color: aqua;
@@ -77,7 +84,7 @@ img{
     margin-top: 2%;
     margin-left: 1%;
 }
-.main-h3-0{
+.all-h3{
     display:inline-block;
     margin-left: 1%;
     margin-right: 1%;
@@ -95,20 +102,6 @@ img{
     margin-bottom: 0%;
 }
 
-.main-h3-1 ul{
-
-}
-.main-h3-1 ul li{
-
-}
-
-.main-block input:nth-child(7){
-    margin-left:2%;  
-}
-
-.main-block input:nth-child(6){
-    margin-left:5%;  
-}
 
 #second-block{
     margin-top: 2%;
@@ -119,4 +112,32 @@ img{
     display:inline-block;
     margin-left: 1%; 
     margin-right: 1%"
+}
+
+.skills-input, .skills-button{
+    margin-left:2%;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+.input-pay{
+    display:inline-block;
+    margin-left:2%;
+}
+.table-style{
+    margin-top: 2%;
+    margin-left: 1%; 
+    
+
+}
+/* .table-in{
+    border:2px solid black;
+    border-radius: 5px;  */
+
+
+
+
+.table-caption{
+    text-align: left;
+    color:blue;
+    font-size: 18px;
 }
