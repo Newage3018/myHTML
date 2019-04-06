@@ -120,7 +120,11 @@ img{
 table{
     border: 3px solid black;
     margin-left: 1%;
-    border-radius: 5px; 
+    border-radius: 5px;
+}
+
+td,th{
+    padding: 10px;
 }
 
 tr:nth-child(odd){
