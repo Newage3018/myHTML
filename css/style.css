@@ -13,32 +13,35 @@ form{
 h1{
     font-size:23px;
     font-family: Verdana, Geneva, Tahoma, sans-seri;
-    color:red;
-    border: 3px dotted blue;
+    color:black;
     text-align: center;
-    /* box-sizing: border-box;  */
-    /* width: 700px;  */
+}
+
+h3{
+    font-size:18px;
+    color:black;
+    margin-left:1%;
 }
 
 .in-form{
     width: 80%;
     margin:0 auto;    
 }
+
 .mydata{
-   display:block;
-   margin:0 auto; 
-}
+    display:block;
+    margin:0 auto; 
+ }
+
 .mydata h3{
-    text-align:center;  
-  }
+  text-align:center;
+}
 
 .graf-id {
     width: 270px;
     display: inline-block;
     vertical-align: top;
     margin-left: 0 auto;
-    /* border: 1px solid black; */
-
 }
 
 
@@ -48,22 +51,9 @@ h1{
     vertical-align: top;
     margin-left: 0 auto; 
     /* border: 1px solid black; */
- 
-}
-h3{
-    font-size:18px;
-    color:blue;
-    margin-left:1%;
-    /* margin: 0 1%; */
-    
-}
-.mydata h3{
-  text-align:center;  
 }
 
 .main-block{
-    /* margin-top: 2%;
-    margin-left: 1%; */
     margin: 2% 1%;
 }
 
@@ -72,13 +62,14 @@ h3{
     margin: 3% 1%;
 }
 
+
 span{
     font-size:18px;
-    color:rgb(0, 255, 34);
+    color:rgb(32, 32, 32);
 }
 a{
     font-size:14px;
-    color:rgb(255, 0, 179);
+    color:rgb(0, 0, 0);
 }
 
 
@@ -94,6 +85,9 @@ img{
     margin: 5% 15%;
 }
 
+.langcheck{
+
+}
 .lang-label{
     margin-right: 1%;
 }
@@ -116,17 +110,21 @@ img{
 .checkbox-block{
     margin: 0 1%;
 }
-.table-style{
-    margin-top: 2%;
-    margin-left: 1%; 
-    
-
+.checkbox-label{
+    margin-right:  1%;
 }
+.table-style{
+    margin: 5% auto;
+    /* margin-left: 1%;  */
+}    
+
+
 
 .table-caption{
     text-align: left;
-    color:blue;
+    color:black;
     font-size: 18px;
+    margin-bottom: 2%;
 }
 
 table{
@@ -134,21 +132,21 @@ table{
     margin-left: 1%;
     /* border-collapse: collapse;
      */
-     border-radius: 10px; 
+     border-radius: 5px; 
 }
 td,th{
-    border: 3px solid black;
-    
+    /* border:  solid black; */
+
 }
 table td{
     border-spacing: 0;
 }
 tr:nth-child(odd){
-    background-color: aqua;
+    background-color: rgb(211, 211, 211);
 }
 tr:nth-child(even){
-    background-color:red;
+    background-color:rgb(235, 233, 233);
 }
 thead tr td{
-    background-color:rgb(213, 216, 51);
+    background-color:rgb(163, 163, 161);
 }

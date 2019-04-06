@@ -31,27 +31,34 @@
             </div>
 <!--Основной блок формыЫ-->
         <div class="main-block">
-            <h3 class="all-h3">Дата собеседования</h3><input type="date"><i class="fa fa-calendar fa-2x" aria-hidden="true" ></i>                <div id="langcheck">
-                    <h3>Уровень английского</h3>
+            <div class="speak">
+                <h3 class="all-h3">Дата собеседования</h3>
+                <input type="date"><i class="fa fa-calendar fa-2x" aria-hidden="true" ></i>
+            </div>
+
+            <div class="langcheck"></div>
+                <h3>Уровень английского</h3>
                     <input type="radio" name="lang" value="bad" ><label class="lang-label">Плохо</label>
                     <input type="radio" name="lang" value="middle"><label class="lang-label">Средне</label>
                     <input type="radio" name="lang" value="good"><label class="lang-label">Хорошо</label>
                     <input type="radio" name="lang" value="super"><label class="lang-label">Превосходно</label>
-        
-            <h3>Ключевые навыки</h3>
+            </div>
+            <div class="key_skills">
+                <h3>Ключевые навыки</h3>
                 <ul class="skills-list">
                     <li>HTML</li>
                     <li>CSS/LESS</li>
                     <li>JavaScript</li>
                     <li>and ALL OTHER</li>
                 </ul>
+            </div>
             <div class="new-skill">
                 <input class="skills-input" type="text" name="skills" value="" placeholder="Введите навык......">
                 <input class="skills-button" type="button" name="butskills" value="Добавить в список">
             </div>
-            
+
             <div class="select-communication">
-            <h3 class="all-h3">Коммуникабельность:</h3>
+                <h3 class="all-h3">Коммуникабельность:</h3>
                 <select>
                     <option>Плохо</option>
                     <option>Средне</option>
@@ -61,60 +68,60 @@
             </div>
 
             <div class="good-pay">
-            <h3 class="all-h3">Желаемая зарплата:</h3>
-
+                <h3 class="all-h3">Желаемая зарплата:</h3>
                 <input  class="input-pay" type="number" name="pay" value="" placeholder="Не стесняйся ...." >
-            </div>    
-            <div class="rezult">    
+            </div>
+
+            <div class="rezult">
             <h3>Подходит по критериям:</h3>
                 <div class="checkbox-block">
-                    <input type="checkbox" name="oklang" value="ok"><label style="margin-right: 1%" >Знание английского</label>
-                    <input type="checkbox" name="okpay" value=ok><label style="margin-right: 1%" >Оклад</label>
-                    <input type="checkbox" name="okskill" value="ok"><label style="margin-right: 1%" >Навыки</label>
-                    <input type="checkbox" name="okman" value=ok><label style="margin-right: 1%" >Сразу видно, свой человек</label>
+                    <input type="checkbox" name="oklang" value="ok"><label class="checkbox-label" >Знание английского</label>
+                    <input type="checkbox" name="okpay" value=ok><label class="checkbox-label" >Оклад</label>
+                    <input type="checkbox" name="okskill" value="ok"><label class="checkbox-label" >Навыки</label>
+                    <input type="checkbox" name="okman" value=ok><label class="checkbox-label" >Сразу видно, свой человек</label>
                 </div>
             </div>
-        </div>
+        
 
-        <div id="table1" class="table-style">
-            <h3>Образование, курсы, и т.п.</h3>
-            <table class="table-in" cellpadding="7">
-                <caption class="table-caption" >Полученные знания</caption>
-                <thead>
-                    <tr>
-                        <td class=>#</td>
-                        <td>Сроки обучения</td>
-                        <td>Название учебного заведения</td>
-                        <td>Название курсов</td>
-                    </tr>
-                </thead>
-                <tr>
-                    <td>1</td>
-                    <td>01.01.2018 - 03.01.2018</td>
-                    <td>Новогоднее застолье</td>
-                    <td>Зимой и летом, одним цветом!</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>01.01.2019 - 03.01.2019</td>
-                    <td>Новогоднее застолье</td>
-                    <td>Опять она и цвет тот же!</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>01.01.2019 - 03.01.2019</td>
-                    <td>Новогоднее застолье</td>
-                    <td>Зимой и летом, одним цветом!</td>
-                </tr>
-                <tr>
-                    <td>4</tdborder:>
-                    <td>01.01.2019 - 03.01.2019</td>
-                    <td>Новогоднее застолье</td>
-                    <td>Зимой и летом, одним цветом!</td>
-                </tr>
-            </table>
+            <div class="table-style">
+                <h3>Образование, курсы, и т.п.</h3>
+                <table class="table-in" cellpadding="7">
+                    <caption class="table-caption" >Полученные знания</caption>
+                    <thead>
+                        <tr>
+                            <td class=>#</td>
+                            <td>Сроки обучения</td>
+                            <td>Название учебного заведения</td>
+                            <td>Название курсов</td>
+                        </tr>
+                    </thead>
+                        <tr>
+                            <td>1</td>
+                            <td>01.01.2018 - 03.01.2018</td>
+                            <td>Новогоднее застолье</td>
+                            <td>Зимой и летом, одним цветом!</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>01.01.2019 - 03.01.2019</td>
+                            <td>Новогоднее застолье</td>
+                            <td>Опять она и цвет тот же!</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>01.01.2019 - 03.01.2019</td>
+                            <td>Новогоднее застолье</td>
+                            <td>Зимой и летом, одним цветом!</td>
+                        </tr>
+                        <tr>
+                            <td>4</tdborder:>
+                            <td>01.01.2019 - 03.01.2019</td>
+                            <td>Новогоднее застолье</td>
+                            <td>Зимой и летом, одним цветом!</td>
+                        </tr>
+                </table>
+            </div>
         </div>
-    
     </form>
     </body>
 </html>
