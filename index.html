@@ -13,20 +13,22 @@
         <h1>Вакансия: Junior Frontend Developer</h1>
         <div class="in-form">
 
-        <div class="mydata">
-            <div class="graf-id">
+            <div class="mydata">
+
+                <div class="graf-id">
                 <h3>Графическая идентификация</h3>
                 <img src="/img/Igor4.jpg" alt="foto">
-            </div>
-            <div class="text-id">
+                </div>
+            
+                <div class="text-id">
                 <h3> Текстовая идентификация</h3>
-                <div class="text-id-one">
+                    <div class="text-id-one">
                     <p><span>ФИО....Артюшин И.О.</span></p>
                     <p><a href="https://github.com/Newage3018/myHTML.git" target="_blank">Вот ссылка на репозиторий!</a></p>
                     <p><span>Опыта работы нет</span></p>
                     </div>
+                </div>
             </div>
-        </div>
 <!--Основной блок формыЫ-->
         <div class="main-block">
             <h3 class="all-h3">Дата собеседования</h3><input type="date"><i class="fa fa-calendar fa-2x" aria-hidden="true" ></i>                <div id="langcheck">
@@ -35,39 +37,47 @@
                     <input type="radio" name="lang" value="middle"><label class="lang-label">Средне</label>
                     <input type="radio" name="lang" value="good"><label class="lang-label">Хорошо</label>
                     <input type="radio" name="lang" value="super"><label class="lang-label">Превосходно</label>
-        </div>
-            <h3 class="all-h3">Ключевые навыки</h3>
+        
+            <h3>Ключевые навыки</h3>
                 <ul class="skills-list">
                     <li>HTML</li>
                     <li>CSS/LESS</li>
                     <li>JavaScript</li>
                     <li>and ALL OTHER</li>
                 </ul>
+            <div class="new-skill">
                 <input class="skills-input" type="text" name="skills" value="" placeholder="Введите навык......">
                 <input class="skills-button" type="button" name="butskills" value="Добавить в список">
-
             </div>
-            <div id="second-block" >
+            
+            <div class="select-communication">
+            <h3 class="all-h3">Коммуникабельность:</h3>
+                <select>
+                    <option>Плохо</option>
+                    <option>Средне</option>
+                    <option>Хорошо</option>
+                    <option>Превосходно</option>
+                </select>
+            </div>
 
-                <h3 class="all-h3">Коммуникабельность:</h3>
-                    <select>
-                        <option>Плохо</option>
-                        <option>Средне</option>
-                        <option>Хорошо</option>
-                        <option>Превосходно</option>
-                    </select>
-                <div></div>
-                <h3 class="all-h3">Желаемая зарплата:</h3>
+            <div class="good-pay">
+            <h3 class="all-h3">Желаемая зарплата:</h3>
 
                 <input  class="input-pay" type="number" name="pay" value="" placeholder="Не стесняйся ...." >
-                <h3 class="h3">Подходит по критериям:</h3>
-                    <input type="checkbox" name="oklang" value="ok" style="margin-left: 1%"><label style="margin-right: 1%" >Знание английского</label>
+            </div>    
+            <div class="rezult">    
+            <h3>Подходит по критериям:</h3>
+                <div class="checkbox-block">
+                    <input type="checkbox" name="oklang" value="ok"><label style="margin-right: 1%" >Знание английского</label>
                     <input type="checkbox" name="okpay" value=ok><label style="margin-right: 1%" >Оклад</label>
                     <input type="checkbox" name="okskill" value="ok"><label style="margin-right: 1%" >Навыки</label>
                     <input type="checkbox" name="okman" value=ok><label style="margin-right: 1%" >Сразу видно, свой человек</label>
-       </div>
+                </div>
+            </div>
+        </div>
+
         <div id="table1" class="table-style">
-            <h3 class="all-h3">Образование, курсы, и т.п.</h3>
+            <h3>Образование, курсы, и т.п.</h3>
             <table class="table-in" cellpadding="7">
                 <caption class="table-caption" >Полученные знания</caption>
                 <thead>
@@ -104,7 +114,7 @@
                 </tr>
             </table>
         </div>
-    </div>
+    
     </form>
     </body>
 </html>
