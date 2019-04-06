@@ -1,14 +1,19 @@
 li{
     list-style-type: none;
-    }
-    li::before{
+}
+
+li::before{
         content:"-- ";
-    }
-    
+}
+
+i{
+    margin-left:2%;
+}
+
 form{
     width: 700px;
     margin:0 auto;
-}    
+}
 
 h1{
     font-size:23px;
@@ -50,11 +55,14 @@ h3{
     display: inline-block;
     vertical-align: top;
     margin-left: 0 auto; 
-    /* border: 1px solid black; */
+}
+
+.text-id-one{
+    margin-left: 20%;
 }
 
 .main-block{
-    margin: 2% 1%;
+    margin: 2% 0%;
 }
 
 .all-h3{
@@ -72,23 +80,12 @@ a{
     color:rgb(0, 0, 0);
 }
 
-
 img{
     display:block;
     margin: 5% auto;
 }
 
-
-
-.text-id-one{
-    
-    margin: 5% 15%;
-}
-
-.langcheck{
-
-}
-.lang-label{
+.lang-label, .checkbox-label, .key-skills{
     margin-right: 1%;
 }
 
@@ -98,7 +95,7 @@ img{
 
 .skills-input, .skills-button{
     margin-left:2%;
-    
+
 }
 .input-pay{
     display:inline-block;
@@ -110,15 +107,10 @@ img{
 .checkbox-block{
     margin: 0 1%;
 }
-.checkbox-label{
-    margin-right:  1%;
-}
+
 .table-style{
     margin: 5% auto;
-    /* margin-left: 1%;  */
-}    
-
-
+}
 
 .table-caption{
     text-align: left;
@@ -130,17 +122,9 @@ img{
 table{
     border: 3px solid black;
     margin-left: 1%;
-    /* border-collapse: collapse;
-     */
-     border-radius: 5px; 
+    border-radius: 5px; 
 }
-td,th{
-    /* border:  solid black; */
 
-}
-table td{
-    border-spacing: 0;
-}
 tr:nth-child(odd){
     background-color: rgb(211, 211, 211);
 }
