@@ -11,3 +11,8 @@ select,input:focus{
     -moz-outline-color: black;
     outline-color: black;
 }
+
+select,input:on{
+    -moz-outline-color: black;
+    outline-color: black;
+}
