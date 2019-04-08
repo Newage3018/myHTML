@@ -179,11 +179,11 @@ thead tr td{
 }
 
 tr:nth-child(even):hover{
-    background-color:rgb(117, 61, 61);
+    background-color:rgb(185, 131, 131);
 } 
 
 tr:nth-child(odd):hover{
-    background-color:rgb(117, 61, 61);
+    background-color:rgb(185, 131, 131);
 } 
 
 
