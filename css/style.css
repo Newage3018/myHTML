@@ -3,11 +3,20 @@ li{
 }
 
 li::before{
-        content:"-- ";
+        content:"";
 }
 
 i{
     margin-left:2%;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color:grey;
 }
 
 form{
@@ -87,6 +96,10 @@ img{
 
 .lang-label, .checkbox-label, .key-skills{
     margin-right: 1%;
+}
+
+.skills-list{
+    margin-left: -20px;
 }
 
 .new-skill{
