@@ -125,7 +125,11 @@ img{
 }
 
 .skills-button{
+    padding: 2px 10px;
+}
 
+.skills-button :focus{
+    border-color: black;
 }
 
 .input-pay{

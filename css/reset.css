@@ -1,9 +1,13 @@
 /*Сброс для однозначного применения собственных стилей,
 для получения ожидаемого дизайна*/
-input :hover{
-    border-bottom-color: black;
+
+
+select,input:hover{
+    -moz-outline-color: black;
+    outline-color: black;
 }
 
-input :focus{
-    border-bottom-color: black;
+select,input:focus{
+    -moz-outline-color: black;
+    outline-color: black;
 }
