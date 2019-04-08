@@ -1,3 +1,11 @@
+body{
+    
+/* background-color:grey;  */
+}
+input{
+    
+}
+
 li{
     list-style-type: none;
 }
@@ -15,13 +23,20 @@ a{
     
 }
 
+a{
+    font-size:16px;
+    color:rgb(0, 0, 0);
+}
 a:hover{
     color:grey;
 }
 
 form{
+    background:linear-gradient(to top, #bababa, #eaeaea);
     width: 700px;
     margin:0 auto;
+    border-radius: 15px;
+    padding: 25px 0px;
 }
 
 h1{
@@ -67,7 +82,7 @@ h3{
 }
 
 .text-id-one{
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 .main-block{
@@ -84,10 +99,9 @@ span{
     font-size:18px;
     color:rgb(32, 32, 32);
 }
-a{
-    font-size:14px;
-    color:rgb(0, 0, 0);
-}
+
+    
+
 
 img{
     display:block;
