@@ -123,6 +123,9 @@ img{
 .skills-input, .skills-button{
     margin-left:2%;
 
+.skills-button{
+    
+}
 }
 .input-pay{
     display:inline-block;
