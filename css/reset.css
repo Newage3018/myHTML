@@ -1,2 +1,9 @@
 /*Сброс для однозначного применения собственных стилей,
 для получения ожидаемого дизайна*/
+input :hover{
+    border-bottom-color: black;
+}
+
+input :focus{
+    border-bottom-color: black;
+}
